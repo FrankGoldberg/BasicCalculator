@@ -34,7 +34,6 @@
             this.EqualsButton = new System.Windows.Forms.Button();
             this.DotButton = new System.Windows.Forms.Button();
             this.ZeroButton = new System.Windows.Forms.Button();
-            this.button16 = new System.Windows.Forms.Button();
             this.AddButton = new System.Windows.Forms.Button();
             this.ThreeButton = new System.Windows.Forms.Button();
             this.TwoButton = new System.Windows.Forms.Button();
@@ -50,7 +49,6 @@
             this.DivideButton = new System.Windows.Forms.Button();
             this.DelButton = new System.Windows.Forms.Button();
             this.CEButton = new System.Windows.Forms.Button();
-            this.CButton = new System.Windows.Forms.Button();
             this.ButtonsPanel.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -84,7 +82,6 @@
             this.ButtonsPanel.Controls.Add(this.EqualsButton, 3, 4);
             this.ButtonsPanel.Controls.Add(this.DotButton, 2, 4);
             this.ButtonsPanel.Controls.Add(this.ZeroButton, 1, 4);
-            this.ButtonsPanel.Controls.Add(this.button16, 0, 4);
             this.ButtonsPanel.Controls.Add(this.AddButton, 3, 3);
             this.ButtonsPanel.Controls.Add(this.ThreeButton, 2, 3);
             this.ButtonsPanel.Controls.Add(this.TwoButton, 1, 3);
@@ -100,7 +97,6 @@
             this.ButtonsPanel.Controls.Add(this.DivideButton, 3, 0);
             this.ButtonsPanel.Controls.Add(this.DelButton, 2, 0);
             this.ButtonsPanel.Controls.Add(this.CEButton, 0, 0);
-            this.ButtonsPanel.Controls.Add(this.CButton, 1, 0);
             this.ButtonsPanel.Location = new System.Drawing.Point(16, 95);
             this.ButtonsPanel.Name = "ButtonsPanel";
             this.ButtonsPanel.RowCount = 5;
@@ -145,17 +141,6 @@
             this.ZeroButton.Text = "0";
             this.ZeroButton.UseVisualStyleBackColor = true;
             this.ZeroButton.Click += new System.EventHandler(this.ZeroButton_Click);
-            // 
-            // button16
-            // 
-            this.button16.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.button16.Location = new System.Drawing.Point(3, 215);
-            this.button16.Name = "button16";
-            this.button16.Size = new System.Drawing.Size(75, 47);
-            this.button16.TabIndex = 16;
-            this.button16.Text = "button16";
-            this.button16.UseVisualStyleBackColor = true;
-            this.button16.Click += new System.EventHandler(this.button16_Click);
             // 
             // AddButton
             // 
@@ -323,17 +308,6 @@
             this.CEButton.UseVisualStyleBackColor = true;
             this.CEButton.Click += new System.EventHandler(this.CEButton_Click);
             // 
-            // CButton
-            // 
-            this.CButton.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.CButton.Location = new System.Drawing.Point(84, 3);
-            this.CButton.Name = "CButton";
-            this.CButton.Size = new System.Drawing.Size(75, 47);
-            this.CButton.TabIndex = 1;
-            this.CButton.Text = "C";
-            this.CButton.UseVisualStyleBackColor = true;
-            this.CButton.Click += new System.EventHandler(this.CButton_Click);
-            // 
             // Form1
             // 
             this.AcceptButton = this.EqualsButton;
@@ -359,11 +333,9 @@
         private System.Windows.Forms.Label CalculatorResultText;
         private System.Windows.Forms.TableLayoutPanel ButtonsPanel;
         private System.Windows.Forms.Button CEButton;
-        private System.Windows.Forms.Button CButton;
         private System.Windows.Forms.Button EqualsButton;
         private System.Windows.Forms.Button DotButton;
         private System.Windows.Forms.Button ZeroButton;
-        private System.Windows.Forms.Button button16;
         private System.Windows.Forms.Button AddButton;
         private System.Windows.Forms.Button ThreeButton;
         private System.Windows.Forms.Button TwoButton;
